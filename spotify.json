@@ -1,0 +1,25 @@
+{
+    "playlist": [
+        {
+            "durasi": "3:18",
+            "song": "https://files.catbox.moe/mrxnh0.mp3",
+            "image": "https://files.catbox.moe/fx86df.jpg",
+            "author": "nadhif Basalamah",
+            "namesong": "Bergema Sampai S."
+        },
+        {
+            "durasi": "4:01",
+            "song": "https://files.catbox.moe/trz5wb.mp3",
+            "image": "https://files.catbox.moe/o39quj.jpeg",
+            "author": "YOASOBI",
+            "namesong": "あの夢をなぞって"
+        },
+        {
+            "durasi": "3:27",
+            "song": "https://files.catbox.moe/jarzoz.mp3",
+            "image": "https://files.catbox.moe/gla7fu.jpeg",
+            "author": "UniteUp",
+            "namesong": "ハレハレヤ"
+        }
+    ]
+}

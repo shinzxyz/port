@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YoedzXy</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+  <div class="pixel-container">
+    <header class="pixel-header">
+      <div class="pixel-avatar">
+        <img src="images/prof.jpg" alt="Your Avatar" class="avatar-image" />
+      </div>
+      <h1 class="pixel-title">PRAE<span>SYACH</span></h1>
+      <nav class="pixel-nav">
+        <a href="#about" class="pixel-button">ABOUT</a>
+        <a href="#work" class="pixel-button">WORK</a>
+        <a href="#contact" class="pixel-button">CONTACT</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about" class="pixel-section">
+        <h2 class="pixel-subtitle">HELLO US!</h2>
+        <div class="pixel-text-box">
+          <p>Saya adalah siswa di SMA Negeri 2 Wonogiri, lahir di Wonogiri dan tinggal di Selogiri. Saya suka ngoding pakai HTML, CSS, dan JavaScript — mungkin terlihat biasa aja, tapi itu hal yang saya nikmati. Masih terus belajar dan berkembang, pelan-pelan membangun sesuatu dari baris-baris kode sederhana.</p>
+          <p>Saya siswa kelas 12, lahir pada 7 Februari 2008. Hobi saya futsal, walau nggak sering main. Salah satu impian terbesar saya adalah bekerja ke Jepang suatu hari nanti.</p>
+        </div>
+      </section>
+
+      <section id="work" class="pixel-section">
+  <h2 class="pixel-subtitle">MY WORK</h2>
+  <div class="pixel-gallery">
+    <div class="pixel-project">
+      <div class="project-thumbnail" style="background-image: url('images/project1.jpg'); background-size: cover; background-position: center;"></div>
+      <h3>Rest Api no Apikey</h3>
+      <p>Rest api yang berfungsi untuk memudahkan developer mencari fitur tanpa menggunakan scraoe ataullainnya yang biasanya digunakan oleh Bot WhatsApp</p>
+    </div>
+    <div class="pixel-project">
+      <div class="project-thumbnail" style="background-image: url('images/project2.jpg'); background-size: cover; background-position: center;"></div>
+      <h3>Retro Dashboard</h3>
+      <p>Website untuk share code/rest api/script bot</p>
+    </div>
+    <div class="pixel-project">
+      <div class="project-thumbnail" style="background-image: url('images/project3.jpg'); background-size: cover; background-position: center;"></div>
+      <h3>Rest Api</h3>
+      <p>Memudahkan untuk membuat fitur yang biasa digukan oleh Bot WhatsApp</p>
+    </div>
+  </div>
+</section>
+
+      <section id="music" class="pixel-section">
+        <h2 class="pixel-subtitle">MY PLAYLIST</h2>
+        <div class="pixel-player">
+          <div class="player-display">
+            <div class="album-art" id="albumArt"></div>
+            <div class="song-info">
+              <h3 id="songTitle">Select a song</h3>
+              <p id="songArtist">Artist name</p>
+              <div class="progress-container">
+                <div class="progress-bar" id="progressBar"></div>
+              </div>
+              <div class="time-display">
+                <span id="currentTime">0:00</span>
+                <span id="duration">0:00</span>
+              </div>
+              <div style="display: flex; justify-content: center; gap: 10px;">
+                <button onclick="prevSong()" class="pixel-social-button" title="Previous"><i class="fas fa-backward"></i></button>
+                <button id="playPauseBtn" class="pixel-social-button" title="Play/Pause"><i class="fas fa-play"></i></button>
+                <button onclick="nextSong()" class="pixel-social-button" title="Next"><i class="fas fa-forward"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="playlist" id="playlist"></div>
+        </div>
+      </section>
+
+      <section id="contact" class="pixel-section">
+        <h2 class="pixel-subtitle">GET IN TOUCH</h2>
+        <div class="pixel-text-box">
+          <p>Want to collaborate or just say hi?</p>
+          <div class="pixel-social">
+            <a href="https://x.com/ydaaaxy" class="pixel-social-button"><i class="fab fa-twitter"></i></a>
+            <a href="https://youtube.com/@sycze?si=HgDrXyo6K2v2ZwjL" class="pixel-social-button"><i class="fab fa-youtube"></i></a>
+            <a href="https://github.com/shinzxyz" class="pixel-social-button"><i class="fab fa-github"></i></a>
+            <a href="https://wa.me/62882008702155" class="pixel-social-button"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://instagram.com/scz.sycze" class="pixel-social-button"><i class="fab fa-instagram"></i></a>
+          </div>
+          <p>Or send me an email: <a href="mailto:hello@pixelportfolio.com">support@yudaxz.my.id</a></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="pixel-footer">
+      <p>© 2023 PixelPortfolio - All rights reserved</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
